@@ -1,6 +1,6 @@
 {
-  "name": "react-update-notification",
-  "version": "1.2.0",
+  "name": "@dakosy/react-update-notification",
+  "version": "1.2.0-react19",
   "description": "New version notification for your React application.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamkd/react-update-notification.git"
+    "url": "git+https://github.com/aberle-dakosy/react-update-notification.git"
   },
   "author": "Danyil Karuna <daniel@karuna.dev>",
   "license": "MIT",
@@ -29,20 +29,20 @@
     "es"
   ],
   "peerDependencies": {
-    "react": "^16.12.0 || ^17.0.0 || ^18.0.0"
+    "react": "^16.12.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.21",
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
-    "@typescript-eslint/parser": "^6.4.1",
-    "eslint": "^8.48.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.0.2",
-    "rimraf": "^5.0.1",
-    "typescript": "^5.2.2"
+    "@types/react": "^19.1.7",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/parser": "^8.34.0",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "yargs": "^17.7.2"
+    "cheerio": "^1.1.0",
+    "yargs": "^18.0.0"
   }
 }

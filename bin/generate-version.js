@@ -5,6 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const cheerio = require('cheerio');
 const yargs = require('yargs');
+const hideBin = require('yargs/helpers').hideBin;
 
 function getVersion(strategy) {
   if (strategy === 'latest-commit') {
@@ -58,7 +59,7 @@ function generate(argv) {
   fs.writeFileSync(indexPath, loadedIndex.html());
 }
 
-const argv = yargs
+const argv = yargs(hideBin(process.argv))
   .usage('Usage: $0 [options]')
   .option('strategy', {
     alias: 's',

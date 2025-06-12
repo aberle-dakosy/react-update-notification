@@ -1,6 +1,6 @@
 {
   "name": "@dakosy/react-update-notification",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "New version notification for your React application.",
   "main": "lib/index.js",
   "module": "es/index.js",
